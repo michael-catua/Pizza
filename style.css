@@ -1,4 +1,247 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+ul,
+h1,
+h2,
+p,
+h3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.header-link {
+    font-size: 24px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.hero {
+    padding: 50 0;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-image {
+    width: 550px;
+}
+
+.hero-title {
+    font-size: 33px;
+    color: rgb(113, 27, 12);
+    padding: 10px 0;
+    ;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.hero-text {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.dough {
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding: 50px;
+}
+
+.dough-container {
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.dough-title {
+    color: rgb(113, 27, 12);
+    font-size: 33px;
+    padding-bottom: 31px;
+}
+
+.dough-text {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 22px;
+
+}
+
+.dough-item {
+    list-style: disc;
+
+}
+
+.dough-image {
+    width: 500px;
+    height: 500px;
+}
+
+.dough-list {
+    list-style: disc;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.filling {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.filling-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filling-img {
+    width: 550px;
+}
+
+.filling-title {
+    font-size: 33px;
+    color: rgb(113, 27, 12);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.filling-list {
+    list-style: disc;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.filling-text {
+    font-size: 22px;
+    padding-top: 15px;
+}
 
 
 
+
+
+.mypizza {
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding: 50px;
+    border-bottom: 3px black solid;
+}
+
+.mypizza-container {
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.mypizza-title {
+    color: rgb(80, 25, 16);
+    font-size: 33px;
+    padding-bottom: 31px;
+    padding-right: 10px;
+}
+
+.mypizza-text {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 22px;
+
+}
+
+.mypizza-item {
+    list-style: disc;
+
+}
+
+.mypizza-img {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 200px;
+    padding-top: 80px;
+}
+
+.mypizza-list {
+    list-style: disc;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.mypizza-text2 {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.footer {
+    background-color: rgb(126, 45, 30);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-img {
+    width: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-text {
+    font-size: 20px;
+    color: white;
+}
+
+.mypizza-cat{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 22px;
+    border:4px black solid ; 
+}
 
